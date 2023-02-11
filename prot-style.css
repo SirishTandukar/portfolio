@@ -234,6 +234,9 @@ form .btn2{
 
 }
 /* responsive*/
+nav .fa-sharp{
+    display: none;
+}
 
 @media only screen and (max-width: 768px){
     #header{
@@ -247,7 +250,7 @@ form .btn2{
     .header-text h2{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-sharp{
         display: block;
         font-size: 25px;
     }
